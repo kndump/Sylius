@@ -1,38 +1,39 @@
 .. index::
     single: System Requirements
 
-System Requirements
+系统要求
 ===================
 
 Here you will find the list of system requirements that have to be adhered to be able to use **Sylius**.
-First of all have a look at the `requirements for running Symfony <http://symfony.com/doc/current/reference/requirements.html>`_.
+在这里，您将找到使用**Sylius**所必需系统要求列表。
+首先，看一下 `运行Symfony的要求 <http://symfony.com/doc/current/reference/requirements.html>`_.
 
-Read about the `LAMP stack <https://en.wikipedia.org/wiki/LAMP_(software_bundle)>`_ and the `MAMP stack <https://en.wikipedia.org/wiki/MAMP>`_.
+参阅 `LAMP栈 <https://en.wikipedia.org/wiki/LAMP_(software_bundle)>`_ 和 `MAMP栈 <https://en.wikipedia.org/wiki/MAMP>`_.
 
-Operating Systems
+操作系统
 -----------------
 
-The recommended operating systems for running Sylius are the Unix systems - **Linux, MacOS**.
+运行Sylius的推荐操作系统是Unix系统 - **Linux, MacOS**.
 
-Web server and configuration
+Web服务器和配置
 ----------------------------
 
-In the production environment we do recommend using Apache web server ≥ 2.2.
+在生产环境中，建议使用2.2版本及以上的Apache Web服务器。
 
-While developing the recommended way to work with your Symfony application is to use PHP's built-in web server.
+在开发时，推荐使用由Symfony封装的PHP的内置Web服务器。
 
-`Go there <http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html>`_ to see the full reference to the web server configuration.
+`在这里 <http://symfony.com/doc/current/cookbook/configuration/web_server_configuration.html>`_ 可以查看完整的Web服务器配置参考。
 
-PHP required modules and configuration
+PHP必需的模块和相关配置
 --------------------------------------
 
-**PHP version**:
+**PHP 版本**:
 
 +---------------+-----------------------+
 | PHP           | ^7.1                  |
 +---------------+-----------------------+
 
-**PHP extensions**:
+**PHP 扩展**:
 
 +-------------+---------------------------+
 | `gd`_       | No specific configuration |
@@ -44,7 +45,7 @@ PHP required modules and configuration
 | `intl`_     | No specific configuration |
 +-------------+---------------------------+
 
-**PHP configuration settings**:
+**PHP 配置**:
 
 +---------------+-----------------------+
 | memory_limit  | ≥1024M                |
@@ -54,12 +55,12 @@ PHP required modules and configuration
 
 .. warning::
 
-    Use your local timezone, for example America/Los_Angeles or Europe/Berlin. See http://php.net/manual/en/timezones.php for the list of all available timezones.
+    使用您当地的时区，例如America/Los_Angeles或Europe/Berlin。 有关所有可用时区的列表，请参阅 http://php.net/manual/en/timezones.php .
 
-Database
+数据库
 --------
 
-By default, the database connection is pre-configured to work with a following MySQL configuration:
+默认情况下，数据库连接已预先配置为使用以下MySQL配置：
 
 +---------------+-----------------------+
 | MySQL         | 5.x                   |
@@ -67,18 +68,18 @@ By default, the database connection is pre-configured to work with a following M
 
 .. note::
 
-    Of course you may use any other RDBMS for instance PostgreSQL.
+    当然，您也可以使用其他任何 RDBMS，例如 PostgreSQL.
 
-Access rights
+访问权限
 -------------
 
-Most of the application folders and files require only read access, but a few folders need also the write access for the Apache/Nginx user:
+大多数应用程序文件夹和文件只需要读权限，但是一些文件夹还需要Apache/Nginx用户的写权限：
 
 * var/cache
 * var/logs
 * web/media
 
-You can read how to set these permissions in the `Symfony - setting up permissions <http://symfony.com/doc/current/setup/file_permissions.html>`_ section.
+你可以在 `Symfony - 设置权限 <http://symfony.com/doc/current/setup/file_permissions.html>`_ 部分阅读如何设置这些权限.
 
 .. _`gd`: http://php.net/manual/en/book.fileinfo.php
 .. _`exif`: http://php.net/manual/en/book.exif.php

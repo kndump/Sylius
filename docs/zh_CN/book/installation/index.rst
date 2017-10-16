@@ -1,7 +1,7 @@
-Installation
+安装
 ============
 
-The process of installing Sylius together with the requirements to run it efficiently.
+安装Sylius并让其有效运行的过程。
 
 .. toctree::
     :hidden:

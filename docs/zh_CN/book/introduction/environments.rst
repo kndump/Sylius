@@ -21,42 +21,43 @@
 生产
 ----------
 
-Production environment or ``prod`` is your live website environment. It uses proper caching and is much faster than other environments. It uses live APIs and sends out all e-mails.
+生产环境或``prod``是您的生产网站环境。 它使用适当的缓存，并且比其他环境快得多。 它使用生产API并会真实发送所有电子邮件。
 
-To run Sylius console in ``prod`` environment, add the following parameters to every command call:
+要在``prod``环境中运行Sylius控制台，可以将以下参数添加到每个命令调用中：
 
 .. code-block:: bash
 
    $ bin/console --env=prod --no-debug cache:clear
 
-You can access the website in production mode via the ``/app.php`` file in your website root (``web/``) or just ``/`` path. (on Apache)
+你可以通过在网站根目录(``web/``)或者``/``目录下的``/app.php``文件来访问生产模式下的网站.
 
 Staging
 -------
 
-Staging environment or ``staging`` is the last line before the shop will go to the production. Here you should test all new features to ensure that everything works as expected.
-It's almost an exact copy of production environment but with different database and turned off e-mails.
+Staging环境或``staging``是商店上线之前的最后一步。
+在这里，您应该测试所有新功能，以确保一切正常工作。
+它几乎是生产环境的准确副本，只是使用不同的数据库，并关闭了电子邮件。
 
-To run Sylius console in ``staging`` environment, add the following parameters to every command call:
+要在``staging``环境中运行Sylius控制台，可以将以下参数添加到每个命令调用中：
 
 .. code-block:: bash
 
    $ bin/console --env=staging --no-debug cache:clear
 
-You can access the website in staging mode via the ``/app_staging.php`` file in your website root (``web/``) or just ``/`` path. (on Apache)
+你可以通过在网站根目录(``web/``)或者``/``目录下的``/app_staging.php``文件来访问生产模式下的网站.
 
-Test
+测试
 ----
 
-Test environment or ``test`` is used for automated testing. Most of the time you will not access it directly.
+测试环境或称``test``，用于自动化测试。 大多数时候你不会直接访问它。
 
-To run Sylius console in ``test`` environment, add the following parameters to every command call:
+要在``test``环境中运行Sylius控制台，可以将以下参数添加到每个命令调用中：
 
 .. code-block:: bash
 
    $ bin/console --env=test cache:clear
 
-Final Thoughts
+最后的想法
 --------------
 
-You can read more about Symfony environments in `this cookbook article <http://symfony.com/doc/current/cookbook/configuration/environments.html>`_.
+你可以通过阅读 `this cookbook article <http://symfony.com/doc/current/cookbook/configuration/environments.html>`_ 来了解更多关于 Symfony 环境的内容.
