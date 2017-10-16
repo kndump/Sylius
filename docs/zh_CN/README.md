@@ -1,40 +1,43 @@
-Sylius Documentation
+Sylius 文档
 ====================
 
-This directory contains documentation for Sylius - Decoupled eCommerce Platform, available on [**docs.sylius.org**](http://docs.sylius.org). 
+这个目录包含了 Sylius 的文档 - 解耦的电子商务平台, 参见 [**docs.sylius.org**](http://docs.sylius.org). 
 
-It is hosted by the great [readthedocs.org](http://readthedocs.org).
+文档部署在 [readthedocs.org](http://readthedocs.org).
 
 Sylius on Twitter
 -----------------
 
-If you want to keep up with all the updates, [follow the official Sylius account on twitter](http://twitter.com/Sylius).
+如果你想随时关注所有更新, [在 twitter 上关注 Sylius 官方账号 ](http://twitter.com/Sylius).
 
-Issues
+Issues（问题）
 ------
 
-The documentation uses [GitHub issues](https://github.com/Sylius/Sylius/issues).
+本文档使用 [GitHub issues](https://github.com/Sylius/Sylius/issues).
 
-Build
+构建
 -----
 
-To test the documentation before a commit:
+在提交之前测试文档:
 
-* [Install `pip`, Python package manager](https://pip.pypa.io/en/stable/installing/)
+* [安装 `pip`, Python 包管理器](https://pip.pypa.io/en/stable/installing/)
 
-* Download the documentation requirements: 
+* 安装文档依赖: 
 
     `$ pip install -r requirements.txt`
     
-    This makes sure that the version of Sphinx you'll get is >=1.4.2!
+    这可以保证你获取的 Sphinx 版本号 >=1.4.2!
 
-* Install [Sphinx](http://www.sphinx-doc.org/en/stable/)
+* 安装 [Sphinx](http://www.sphinx-doc.org/en/stable/)
 
     `$ pip install Sphinx`
+    
+    译者注：还需要执行 `pip install git+https://github.com/fabpot/sphinx-php.git` 以安装 Sphinx 对 php 的支持
+    否则会报错误 [Extension error: Could not import extension sensio.sphinx.bestpractice (exception: cannot import name 'upper')](https://github.com/phpbb/documentation/issues/57)
 
-* In the `docs` directory run `$ sphinx-build -b html . build` and view the generated HTML files in the `build` directory.
+* 进入 `docs` 目录执行 `$ sphinx-build -b html . build`，在 `build` 目录查看生成的 HTML 文件.
 
-Authors
+作者
 -------
 
-See the list of [our amazing contributors](http://github.com/Sylius/Sylius/contributors).
+查看 [贡献者列表](http://github.com/Sylius/Sylius/contributors).

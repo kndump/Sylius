@@ -1,20 +1,24 @@
 .. index::
    single: Environments
 
-Understanding Environments
+理解环境
 ==========================
 
-Every Sylius application is the combination of code and a set of configuration that dictates how that code should function. The configuration may define the database being used, whether or not something should be cached, or how verbose logging should be. In Symfony, the idea of "environments" is the idea that the same codebase can be run using multiple different configurations. For example, the dev environment should use configuration that makes development easy and friendly, while the prod environment should use a set of configuration optimized for speed.
+每个Sylius应用程序都是代码和一组配置的组合，这些配置决定了代码应该如何运行。
+这些配置可以定义正在使用的数据库，是否应该缓存某些内容，或者详细的日志应该如何记录。
+在Symfony中，“环境”的思想是使用多种不同配置可以运行相同的代码库。
+例如，开发环境应该使用让开发变得更容易和更友好的配置，而生产环境应该使用一组针对速度进行优化的配置。
 
-Development
+开发
 -----------
 
-Development environment or ``dev``, as the name suggests, should be used for development purposes. It is much slower than production, because it uses much less aggressive caching and does a lot of processing on every request.
-However, it allows you to add new features or fix bugs quickly, without worrying about clearing the cache after every change.
+开发环境或``dev``，顾名思义，应该用于开发目的。 它比生产慢得多，因为它使用的缓存很少，并且对每个请求进行了大量处理。
+但是，它允许您在添加新功能或快速修复Bug时，不用担心每次修改后都要清除缓存。
 
-Sylius console runs in ``dev`` environment by default. You can access the website in dev mode via the ``/app_dev.php`` file in the ``web/`` directory. (under your website root)
+默认情况下，Sylius控制台应用运行在``dev``环境下。
+您可以通过``web/``目录下的``/app_dev.php``文件访问dev模式下的网站。（在您的网站根目录下）
 
-Production
+生产
 ----------
 
 Production environment or ``prod`` is your live website environment. It uses proper caching and is much faster than other environments. It uses live APIs and sends out all e-mails.

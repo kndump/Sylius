@@ -1,7 +1,8 @@
-Introduction
+介绍
 ============
 
-This is the beginning of the journey with Sylius. We will start with a basic insight into terms that we use in Sylius Documentation.
+这是Sylius旅程的开始。
+我们将从Sylius文档中所用术语的基本了解开始。
 
 .. toctree::
     :hidden:

@@ -1,13 +1,13 @@
 The Book
 ========
 
-The Developer's guide to leveraging the flexibility of Sylius. Here you will find all the concepts used in Sylius.
-The Books helps to understand how Sylius works.
+针对开发者如何灵活使用Sylius的一份指南. 你可以在这里找到Sylius平台使用到的所有概念.
+帮助你理解Sylius是如何工作的.
 
-Introduction
+介绍
 ------------
 
-Introduction aims to describe the philosophy of Sylius. It will also teach you about environments before you start installing it.
+介绍部分旨在描述 Sylius 的哲学. 同时也会教你一些在安装它之前的环境问题.
 
 .. toctree::
     :hidden:
@@ -16,11 +16,10 @@ Introduction aims to describe the philosophy of Sylius. It will also teach you a
 
 .. include:: /book/introduction/map.rst.inc
 
-Installation
+安装
 ------------
 
-The installation chapter is of course a comprehensive guide to installing Sylius on your machine, but it also provides
-a general instruction on upgrading Sylius in your project.
+安装章节当然是在你的机器上安装Sylius的综合指南，但它也提供了关于在你的项目中升级Sylius的一般说明。
 
 .. toctree::
     :hidden:
@@ -29,11 +28,13 @@ a general instruction on upgrading Sylius in your project.
 
 .. include:: /book/installation/map.rst.inc
 
-Architecture
+架构
 ------------
 
-The key to understanding principles of Sylius internal organization. Here you will learn about the Resource layer,
-state machines, events and general non e-commerce concepts adopted in the platform, like E-mails or Fixtures.
+了解Sylius内部组织原则的关键。 在这里您将了解资源层(Resource layer)、状态机(State machine)、事件(vent)
+和一些非电子商务相关但是在Sylius中被采用的概念，如电子邮件或夹具(Fixtures)。
+
+译者注：Fixtures 是测试中非常重要的一部分。他们的主要目的是建立一个固定/已知的环境状态以确保测试 可重复并且按照预期方式运行
 
 .. toctree::
     :hidden:
@@ -42,11 +43,11 @@ state machines, events and general non e-commerce concepts adopted in the platfo
 
 .. include:: /book/architecture/map.rst.inc
 
-Configuration
+配置
 -------------
 
-Having knowledge about basics of our architecture we will introduce the three most important concepts - Channels, Locales and Currencies.
-These things have to be configured before you will have a Sylius application up and running.
+了解了Sylius的架构基础知识，我们将介绍三个最重要的概念 - 渠道(Channels)、区域(Locales)和货币(Currencies)。
+必须先配置这些内容，才能启动和运行Sylius应用程序。
 
 .. toctree::
     :hidden:
@@ -55,11 +56,11 @@ These things have to be configured before you will have a Sylius application up 
 
 .. include:: /book/configuration/map.rst.inc
 
-Customers
+顾客
 ---------
 
-This chapter will tell you more about the way Sylius handles users, customers and admins.
-There is also a subchapter dedicated to addresses of your customers.
+本章将详细介绍Sylius处理用户、顾客和管理员的方式。
+还有一个专门针对顾客地址管理的子章节。
 
 .. toctree::
     :hidden:
@@ -68,11 +69,11 @@ There is also a subchapter dedicated to addresses of your customers.
 
 .. include:: /book/customers/map.rst.inc
 
-Products
+产品
 --------
 
-This is a guide to understanding products handling in Sylius together with surrounding concepts. Read about
-Associations, Reviews, Attributes, Taxons etc.
+这是一份帮助了解Sylius产品处理及其周边概念的指南。
+阅读关于协会(Associations)、评论(Reviews)、属性(Attributes)、分类(Taxons)等部分。
 
 .. toctree::
     :hidden:
@@ -81,13 +82,13 @@ Associations, Reviews, Attributes, Taxons etc.
 
 .. include:: /book/products/map.rst.inc
 
-Carts & Orders
+购物车 & 订单
 --------------
 
-In this chapter you will learn everything you need to know about orders in Sylius.
-This concept comes together with a few additional ones, like promotions, payments, shipments or checkout in general.
+在本章中，您将了解到关于Sylius订单所需的一切。
+这个概念还和一些额外的概念相结合，例如促销(promotions)，付款(payments)，出货(shipments)或结帐(checkout)。
 
-You should also have a look here if you are looking for Cart, which is in Sylius an Order in the ``cart`` state.
+如果你正在找Sylius中处于``cart``状态的订单，你也需要阅读本章节。
 
 .. toctree::
     :hidden:
@@ -96,10 +97,10 @@ You should also have a look here if you are looking for Cart, which is in Sylius
 
 .. include:: /book/orders/map.rst.inc
 
-Themes
+主题
 ------
 
-Here you will learn basics about the Theming concept of Sylius. How to change the theme of your shop? keep reading!
+你会在这里学习自定义Sylius主题的基础知识。如何改变自己店铺的主题？继续学习吧！
 
 .. toctree::
     :hidden:

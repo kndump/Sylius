@@ -1,52 +1,57 @@
 .. index::
    single: Introduction
 
-Introduction to Sylius
+Sylius介绍
 ======================
 
-Sylius is a game-changing e-commerce solution for PHP, based on the Symfony framework.
+Sylius是一个基于Symfony框架的电子商务PHP解决方案。
 
-Philosophy
+哲学
 ----------
 
-Sylius is completely open source (MIT license) and free, maintained by diverse and creative community of developers and companies.
+Sylius是免费的、完全开放源代码（MIT许可证）的，由开发人员和公司等多样化、有创造性的社区维护。
 
-What are our core values and what makes us different from other solutions?
+我们的核心价值观是什么？是什么使我们与其他解决方案不同？
 
-* Components based approach
-* Unlimited flexibility and simple customization
-* Developer-friendly, using latest technologies
-* Developed using best practices and BDD approach
-* `Highest quality of code <https://scrutinizer-ci.com/g/Sylius/Sylius/>`_
+* 基于组件的方法
+* 无限灵活和简便快捷的定制化
+* 使用最新技术-开发人员友好
+* 采用最佳实践和行为驱动方式开发
+* `最高质量的代码 <https://scrutinizer-ci.com/g/Sylius/Sylius/>`_
 
-And much more, but we will let you discover it yourself.
+和其他很多需要你自行发现的特性。
 
-The Three Natures of Sylius
+Sylius的三大性质
 ---------------------------
 
-Sylius is constructed from fully decoupled and flexible e-commerce components for PHP. It is also a set of Symfony bundles, which integrate the components into the full-stack framework.
-On top of that, Sylius is also a complete e-commerce platform crafted from all these building blocks.
+Sylius由完全解耦和足够灵活的电子商务PHP组件构成。
+它也是一组集成到全栈框架Symfony中的Symfony包。
+除此之外，Sylius也是由这些构建块搭建成的完整的电子商务平台。
 
-It is your choice how to use Sylius, you can benefit from the components with any framework, integrate selected bundles into existing or new Symfony app or built your application on top of Sylius platform.
+如何使用Sylius，完全由你自己决定。
+您可以将选定的组件集成到任何已存在的框架中，或新的Symfony应用程序中，或者完全在Sylius平台之上构建您的应用程序，并从中受益。
 
-Sylius Platform
+Sylius平台
 ---------------
 
-This book is about our **full-stack e-commerce platform**, which is a standard Symfony application providing the most common webshop and a foundation for custom systems.
+这本书是关于我们的**全栈电子商务平台**，
+它是一个标准的Symfony应用程序，提供最常见的网上商店和定制系统的基础。
 
-Leveraging Symfony Bundles
+利用Symfony软件包
 --------------------------
 
-If you prefer to build your very custom system step by step and from scratch, you can integrate the standalone Symfony bundles. For the installation instructions, please refer to the appropriate bundle documentation.
+如果您更愿意从头开始构建自定义系统，您可以集成独立的Symfony包。
+有关安装说明，请参阅相应的软件包文档。
 
-E-Commerce Components for PHP
+PHP电子商务组件
 -----------------------------
 
-If you use a different framework than Symfony, you are welcome to use Sylius components, which will make it much easier to implement a webshop with any PHP application and project.
-They provide you with default models, services and logic for all aspects of e-commerce, completely separated and ready to use.
+如果你使用与Symfony不同的框架，欢迎使用Sylius组件，它会让在任何PHP应用程序和项目上实现网上商城变得更加容易。
+它们为你提供了电子商务各个方面的默认模型、服务和逻辑，完全独立切随时可用。
 
-Final Thoughts
+最后的想法
 --------------
 
-Depending on how you want to use Sylius, continue reading The Book, which
-covers the usage of the full stack solution, browse the Bundles Reference or learn about The Components.
+根据您想要如何使用Sylius，请继续阅读本书。
+它涵盖了该全栈解决方案的用法。
+要了解“组件”请参阅相关软件包指引。
